@@ -1,0 +1,52 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Webshop Backend",
+    "collectionId": "bb284165-cd54-49e5-ad52-858c898c6f1e",
+    "dateExported": "2024-11-27T09:03:22.934Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ba6abb3d-322c-47a2-baef-a5cdd79d7bd0",
+            "colId": "bb284165-cd54-49e5-ad52-858c898c6f1e",
+            "containerId": "",
+            "name": "get all product",
+            "url": "http://webshop.test/api/products",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-11-26T10:25:28.736Z",
+            "modified": "2024-11-26T10:25:52.985Z",
+            "headers": []
+        },
+        {
+            "_id": "9743235f-0479-49a3-8cc2-b9a852d07e85",
+            "colId": "bb284165-cd54-49e5-ad52-858c898c6f1e",
+            "containerId": "",
+            "name": "get product by id",
+            "url": "http://webshop.test/api/products/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-11-26T10:26:07.448Z",
+            "modified": "2024-11-26T10:28:15.717Z",
+            "headers": []
+        },
+        {
+            "_id": "697c0633-52f9-4129-84cf-2604b1abf902",
+            "colId": "bb284165-cd54-49e5-ad52-858c898c6f1e",
+            "containerId": "",
+            "name": "update product",
+            "url": "http://webshop.test/api/products/3",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-11-26T10:26:50.471Z",
+            "modified": "2024-11-27T09:01:26.188Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"name\": \"apamfasza\"\n    }",
+                "form": []
+            }
+        }
+    ],
+    "ref": "4fBajqBbbEmxsDsXWUqkLakn-SLFF8RMFmFdnVFt-YShmwmjnnniyqQSwOTyn6NnSKUFRI7R3ywJq2kKDStnwg"
+}
